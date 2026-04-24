@@ -85,11 +85,25 @@ const SignUpPage = () => {
         </div>
       </form>
 
-      <div className="mt-8 border-t border-zinc-200 pt-6 text-sm text-zinc-600">
-        Already have an account?{' '}
-        <Link to="/auth/signin" className="font-semibold text-zinc-900 transition hover:text-zinc-600">
-          Log In
-        </Link>
+      <div className="mt-8 border-t-2 border-zinc-900 pt-8 text-center sm:text-left">
+        <p className="text-sm text-zinc-600">
+          Already have an account?{' '}
+          <Link 
+            to="/auth/signin" 
+            className="inline-flex items-center gap-1 font-bold text-zinc-900 underline decoration-2 underline-offset-4 transition-colors hover:text-zinc-500"
+          >
+            Log In
+            <span className="text-lg">→</span>
+          </Link>
+        </p>
+        <div className="mt-6">
+          <Link 
+            to="/" 
+            className="text-xs font-semibold uppercase tracking-widest text-zinc-500 hover:text-zinc-900 transition-colors"
+          >
+            ← Back to Store
+          </Link>
+        </div>
       </div>
     </>
   );

@@ -108,15 +108,19 @@ const AboutPage = () => {
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
               <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
                 <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+                <img src="https://scontent.fmnl4-4.fna.fbcdn.net/v/t39.30808-6/482228426_963843282598095_6148824501289677947_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeGAMAK4P2LF3L8-9gFPcjqb4wJVRoH5r0fjAlVGgfmvRwkC8JiDVIctKBjU6E1EFIXtXkJ-SVNn7Gil36g5Xv1Q&_nc_ohc=OFjpuYx11xsQ7kNvwFTNh9L&_nc_oc=AdoCyVuMkje5EnCAgJLSS3DatzHCv6MftxHgtPSxY2HxVTlusvwcNS-EuylMXQdKvSByHDoXmwrkB8wBVTOGl20t&_nc_zt=23&_nc_ht=scontent.fmnl4-4.fna&_nc_gid=-Uau9zbm1hGlzenTYvaEXw&_nc_ss=7a3a8&oh=00_Af0wZ4YPP3gtAeUWOHQI_g6bwIoMCRZJQR0qbYqJSescgQ&oe=69EC41D4" />
               </div>
               <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
                 <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+                <img src="https://scontent.fmnl4-5.fna.fbcdn.net/v/t39.30808-6/481784201_963842989264791_4821743254808001535_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeHHto8J8Mw5bk6-H2mC_TPQIcUZr50XDpkhxRmvnRcOmfs5bpc6fF64eId0DhiFYI1KWHlQzEDlbf1d7eFkoWwU&_nc_ohc=FAEBE09KmSgQ7kNvwHEga3-&_nc_oc=AdpmWVR_2Y9yNtZBq_DTPsiHZcLMe7IgC889vTOl_6gaBvbvNM-FKWlhBP6cZlK7lWJHO12_50R1Ogn2wRyg5M9K&_nc_zt=23&_nc_ht=scontent.fmnl4-5.fna&_nc_gid=AVikplwM-e7YECpzIbWQng&_nc_ss=7a3a8&oh=00_Af09qrZM4dx6FStijDOsqxMyTFJTDDkfe31pbXCyXveLFg&oe=69EC4E12" />
               </div>
               <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
                 <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+                <img src="https://scontent.fmnl4-4.fna.fbcdn.net/v/t39.30808-6/482226572_963843002598123_1719146899696626085_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeFnwUke41c0sYlicfn97LWRCfOmbmX-FfMJ86ZuZf4V83jakde4nDMEjLZ6uL8kU2DGSqhlmZOLi-_JfrgNcLCb&_nc_ohc=LBYonVIvbI0Q7kNvwHUgMnu&_nc_oc=AdqpcmjX0Er65n2znX-18MVxm43BFaQpRiIddtjwjM8uXJAWfL_eupF3zElJv6npMoaEnVRqjGVhFRzLoO4XY4AJ&_nc_zt=23&_nc_ht=scontent.fmnl4-4.fna&_nc_gid=QNYmpHa6pVBsaYZmhn_BIQ&_nc_ss=7a3a8&oh=00_Af04xbs-0h_YBRmbUMt0wPlTrgKkv4QMfokmzMIfGx91TQ&oe=69EC674F" />
               </div>
               <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
                 <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+                <img src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t39.30808-6/481990499_963842995931457_2866865429119275162_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEijO_FZRtA88QRpHDz_easRT-tbylNCFhFP61vKU0IWDE--BNvTM1s6O6HN_Rlkae4ufBbONzIaeg9xuEtsPvk&_nc_ohc=lvQUSfiWL5UQ7kNvwFRY4q9&_nc_oc=AdrbcGgBXbPWMIogJ1bZ-M1vd4k78zGGzQQ5ia0OUyFTeGj574DoNP05o0LYEMI7aHroIV2_jhyK3yrAAWBiJnNK&_nc_zt=23&_nc_ht=scontent.fmnl4-1.fna&_nc_gid=nTEBdTjTE0GgjQhdlufqug&_nc_ss=7a3a8&oh=00_Af1Npx3Y8FmeF6D5oSP0N-z9G3sjZVDoMMWMVqXz2W5uiQ&oe=69EC4AA0" />
               </div>
             </div>
             <Button to="/products" className="mt-5">View Products</Button>

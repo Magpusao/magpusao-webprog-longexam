@@ -1,0 +1,108 @@
+const products = [
+  {
+    name: 'dog-plushie',
+    title: 'Dog Plushie',
+    category: 'Bags',
+    price: 'PHP 249',
+    stock: 'In stock',
+    image: 'https://scontent.fmnl4-2.fna.fbcdn.net/v/t39.30808-6/480172343_929089409431510_8817340637460353040_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeF40KN46IOnDAr4lSoMJOoKiRi4uo6szF6JGLi6jqzMXkCjDBWpRND9VUkgICQmqxLKFoOvNP-hbs_hVOqJua2l&_nc_ohc=p5Q7aGuVdB8Q7kNvwFXXriQ&_nc_oc=AdooDGUajJi7v7D-wrUl0C37l0n6vrJgvi1kqbjU2_AH2yZ6660DHaRIRhPLs7ChiRor_yDjpsTGmU4OptHeqfA6&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_gid=X1aHhg1GqMcFRHxN8zu2Kw&_nc_ss=7a3a8&oh=00_Af3obZEb6MWPgh5B2k1LAMVHDXCLcdD6SWqqKMxYIfgZMw&oe=69EC1FE2',
+    content: [
+      'A roomy everyday tote for books, gym clothes, chargers, and quick campus errands.',
+      'Made with thick canvas, reinforced handles, and a clean monochrome print.',
+      'Best for students who want one simple carry-all bag for class and after-class plans.',
+    ],
+  },
+  {
+    name: 'dog-daily-notes-pack',
+    title: 'Dog Daily Notes Pack',
+    category: 'Stationery',
+    price: 'PHP 49',
+    stock: 'In stock',
+    image: 'https://static.winc.com.au/pi/73/01b91b87f9e15b22d624751d3de749c085b6da-1108251/lgsq.jpg',
+    content: [
+      'A practical bundle of notebooks, sticky notes, and quick-label tabs for daily class work.',
+      'The set is light, compact, and easy to keep inside a backpack or locker.',
+      'Useful for lectures, reminders, project lists, and exam review schedules.',
+    ],
+  },
+  {
+    name: 'dog-stainless-tumbler',
+    title: 'Dog Stainless Tumbler',
+    category: 'Drinkware',
+    price: 'PHP 499',
+    stock: 'In stock',
+    image: 'https://scontent.fmnl4-3.fna.fbcdn.net/v/t39.30808-6/491917946_622145374117946_3973100125696767642_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeE2YiNdMdyL4S0knbIFknqsZFSjsIOP-zpkVKOwg4_7On0P1Yqjp3LSOhTSuSc3ndFkEihNYISNziUXgOTMG0Xw&_nc_ohc=WofD98BeJboQ7kNvwFNT_iQ&_nc_oc=AdrRj8Y8AgkqhLktv7pi82JAe7aR7OrNk9KNxZ_txzjQe0bysADg0T-Z_XJnxbRlfVDbocFZJwlMDrWaS7aWDTYz&_nc_zt=23&_nc_ht=scontent.fmnl4-3.fna&_nc_gid=LGvbWhwdqpO6gXSTISIl0w&_nc_ss=7a3a8&oh=00_Af1ZKcanjaJsj9md08msGGasOac2f5slYK70fONh7jjLwg&oe=69EC421E',
+    content: [
+      'A double-wall tumbler built for water, coffee, or tea during long school days.',
+      'The matte finish keeps the look simple while the lid helps reduce spills in your bag.',
+      'Fits most side pockets and keeps drinks ready between classes.',
+    ],
+  },
+  {
+    name: 'dog-wireless-study-lamp',
+    title: 'Dog Wireless Study Lamp',
+    category: 'Tech',
+    price: 'PHP 999',
+    stock: 'In stock',
+    image: 'https://www.ks-licht.de/images/product_images/popup_images/STE-3456ZW_1.jpg',
+    content: [
+      'A compact rechargeable lamp for dorm desks, night study sessions, and small workspaces.',
+      'It has three brightness levels and a foldable body that stores neatly after use.',
+      'Good for reading, writing, and focused desk work without taking too much space.',
+    ],
+  },
+  {
+    name: 'dog-hoodie-jacket',
+    title: 'Dog Hoodie Jacket',
+    category: 'Apparel',
+    price: 'PHP 249',
+    stock: 'Pre-order',
+    image: 'https://scontent.fmnl4-2.fna.fbcdn.net/v/t39.30808-6/481769621_963843279264762_3512156094532716808_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEokBukShuCm4HEicSCC-giBlltUtItJVgGWW1S0i0lWGrHpQKJzlg0Agm3zN6yi0jkxuGIy_AosOAb1JH8Gqgw&_nc_ohc=hF5UPdOa2sYQ7kNvwH2TK3L&_nc_oc=AdoKE_81Cim5FYxnrNNbYbARHU-3sa6lg7k3YLZj8QiBjVnnaYWk1TICAiQ8HQI5ZMHkYq5aKMWWvPV3xIxChkBJ&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_gid=Xq1Qp9plxB5Ra9XOFCFAfA&_nc_ss=7a3a8&oh=00_Af35CaitW0Lxe2j8CPhvdbXrEEVHQg-u5e3dWtfbvVxFKw&oe=69EC469E',
+    content: [
+      'A soft everyday hoodie with a relaxed fit for classrooms, commute days, and weekends.',
+      'The heavy cotton blend keeps structure while staying comfortable for regular wear.',
+      'Available through preorder so sizes can be reserved before release.',
+    ],
+  },
+  {
+    name: 'dog-handy-fan',
+    title: 'Dog Handy Fan',
+    category: 'Workspace',
+    price: 'PHP 399',
+    stock: 'In stock',
+    image: 'https://scontent.fmnl4-2.fna.fbcdn.net/v/t39.30808-6/491961667_622145407451276_1662736515504926305_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEpoXG676BmXtr6qhgCrqkoqihG8cCE1aSqKEbxwITVpA13dcKZJIdcNTU1Cc7sYacPc_mBUUIrI6dAy5_qMQq6&_nc_ohc=0WZT_aSkFXcQ7kNvwGbdP58&_nc_oc=AdpTKjuxKFKPgE8oabbuq1U1uUacy4dpcbkK2dA1nhxHAR3AnDFWFvcTxyFl8XRAw4flL0z7WHX-SIDNjRNaecQ4&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_gid=0loBjiw8rXMQp-XdZ6Cscg&_nc_ss=7a3a8&oh=00_Af3mXdsyQ6jme3NYfbPenhDylka4nmvKbzN6hXzlPvzEtQ&oe=69EC27B6',
+    content: [
+      'A small organizer set for pens, clips, cables, cards, and other desk essentials.',
+      'The modular pieces can be arranged based on your study area or dorm table.',
+      'Keeps daily tools visible without adding clutter.',
+    ],
+  },
+  {
+    name: 'dog-id-lanyard-set',
+    title: 'Dog ID Lanyard Set',
+    category: 'Accessories',
+    price: 'PHP 89',
+    stock: 'In stock',
+    image: 'https://down-ph.img.susercontent.com/file/ph-11134207-7r98s-lsmhfzl7o66c04.webp',
+    content: [
+      'A durable lanyard and card holder set for IDs, access cards, and small passes.',
+      'The clip is easy to detach when scanning or presenting credentials.',
+      'Simple enough for daily use and sturdy enough for a full semester.',
+    ],
+  },
+  {
+    name: 'dog-nu-cap',
+    title: 'Dog NU Cap',
+    category: 'Bundles',
+    price: 'PHP 249',
+    stock: 'In stock',
+    image: 'https://scontent.fmnl4-2.fna.fbcdn.net/v/t39.30808-6/492088929_622145297451287_7457934685653255083_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEpMZVLIf_bjS1aPjeCBTEPfFSqjUDdvr58VKqNQN2-vmh5syI0g6enbINq9l9BiLWzDrZ1pzK5G8bDl_lKxM8v&_nc_ohc=2egExpvd7JsQ7kNvwEpEw_L&_nc_oc=Adqv04FsOITXnR4YYOJF7SiQoRCPTW8D7Uzar7gBMgTjuUvvcfHgYozi5rVhVQMHDYyqIZz3nDRLHQb9Hhd4SD6d&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_gid=rr6urwm8E1d7lJBS02AXSA&_nc_ss=7a3a8&oh=00_Af038PJlWxHg4ETtZlHYxo63AHrjXwN4EpVFKRbWSCurng&oe=69EC45E6',
+    content: [
+      'A compact bundle with snacks, tabs, pens, and quick notes for busy review weeks.',
+      'Packed for convenience so students can grab one kit and focus on studying.',
+      'Ideal as a personal prep item or a small gift for classmates.',
+    ],
+  },
+];
+
+export default products;
